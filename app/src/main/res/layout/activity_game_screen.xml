@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".GameScreen"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <ImageButton
+        android:id="@+id/P2Start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?android:selectableItemBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/player2start_full" />
+
+    <ImageButton
+        android:id="@+id/player2Tile14"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/player2Goal"
+        app:layout_constraintEnd_toStartOf="@+id/Tile11"
+        app:srcCompat="@drawable/empty_tile"
+        android:background="?android:selectableItemBackground"/>
+
+    <ImageButton
+        android:id="@+id/player1Tile14"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/player1Goal"
+        app:layout_constraintStart_toEndOf="@+id/Tile11"
+        app:srcCompat="@drawable/empty_tile"
+        android:background="?android:selectableItemBackground"/>
+
+    <ImageButton
+        android:id="@+id/player1Goal"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="98dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/player1Tile1"
+        app:layout_constraintStart_toEndOf="@+id/Tile10"
+        app:srcCompat="@drawable/empty_tile"
+        android:background="?android:selectableItemBackground"/>
+
+    <ImageButton
+        android:id="@+id/player2Goal"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="98dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/player2Tile1"
+        app:layout_constraintEnd_toStartOf="@+id/Tile10"
+        app:srcCompat="@drawable/empty_tile"
+        android:background="?android:selectableItemBackground"/>
+
+    <ImageButton
+        android:id="@+id/player2Tile3"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/player2Tile4"
+        app:layout_constraintEnd_toStartOf="@+id/Tile6"
+        app:srcCompat="@drawable/empty_tile"
+        android:background="?android:selectableItemBackground"/>
+
+    <ImageButton
+        android:id="@+id/player2Tile2"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/player2Tile3"
+        app:layout_constraintEnd_toStartOf="@+id/Tile7"
+        app:srcCompat="@drawable/empty_tile"
+        android:background="?android:selectableItemBackground"/>
+
+    <ImageButton
+        android:id="@+id/player2Tile4"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="140dp"
+        android:layout_marginLeft="161dp"
+        android:layout_marginStart="161dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/empty_tile"
+        android:background="?android:selectableItemBackground"/>
+
+    <ImageButton
+        android:id="@+id/player1Tile1"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/player1Tile2"
+        app:layout_constraintStart_toEndOf="@+id/Tile8"
+        app:srcCompat="@drawable/empty_tile"
+        android:background="?android:selectableItemBackground"/>
+
+    <ImageButton
+        android:id="@+id/player2Tile1"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/player2Tile2"
+        app:layout_constraintEnd_toStartOf="@+id/Tile8"
+        app:srcCompat="@drawable/empty_tile"
+        android:background="?android:selectableItemBackground"/>
+
+    <ImageButton
+        android:id="@+id/Tile10"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/Tile9"
+        app:layout_constraintEnd_toEndOf="@+id/Tile9"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/Tile9"
+        app:srcCompat="@drawable/empty_tile"
+        android:background="?android:selectableItemBackground"/>
+
+    <ImageButton
+        android:id="@+id/Tile11"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/Tile10"
+        app:layout_constraintEnd_toEndOf="@+id/Tile10"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/Tile10"
+        app:srcCompat="@drawable/empty_tile"
+        android:background="?android:selectableItemBackground"/>
+
+    <ImageButton
+        android:id="@+id/Tile9"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/Tile8"
+        app:layout_constraintEnd_toEndOf="@+id/Tile8"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/Tile8"
+        app:srcCompat="@drawable/empty_tile"
+        android:background="?android:selectableItemBackground"/>
+
+    <ImageButton
+        android:id="@+id/Tile8"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/Tile7"
+        app:layout_constraintEnd_toEndOf="@+id/Tile7"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/Tile7"
+        app:srcCompat="@drawable/empty_tile"
+        android:background="?android:selectableItemBackground"/>
+
+    <ImageButton
+        android:id="@+id/player1Tile13"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/player1Tile14"
+        app:layout_constraintStart_toEndOf="@+id/Tile12"
+        app:srcCompat="@drawable/empty_tile"
+        android:background="?android:selectableItemBackground"/>
+
+    <ImageButton
+        android:id="@+id/Tile12"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/Tile11"
+        app:layout_constraintEnd_toEndOf="@+id/Tile11"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/Tile11"
+        app:srcCompat="@drawable/empty_tile"
+        android:background="?android:selectableItemBackground"/>
+
+    <ImageButton
+        android:id="@+id/Tile7"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/Tile6"
+        app:layout_constraintEnd_toEndOf="@+id/Tile6"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/Tile6"
+        app:srcCompat="@drawable/empty_tile"
+        android:background="?android:selectableItemBackground"/>
+
+    <ImageButton
+        android:id="@+id/Tile6"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/Tile5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/empty_tile"
+        android:background="?android:selectableItemBackground"/>
+
+    <ImageButton
+        android:id="@+id/Tile5"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="140dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/player1Tile4"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/player2Tile4"
+        app:srcCompat="@drawable/empty_tile"
+        android:background="?android:selectableItemBackground"/>
+
+    <ImageButton
+        android:id="@+id/player2Tile13"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/player2Tile14"
+        app:layout_constraintEnd_toStartOf="@+id/Tile12"
+        app:srcCompat="@drawable/empty_tile"
+        android:background="?android:selectableItemBackground"/>
+
+    <ImageButton
+        android:id="@+id/player1Tile4"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="140dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginRight="161dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/empty_tile"
+        android:background="?android:selectableItemBackground"/>
+
+    <ImageButton
+        android:id="@+id/player1Tile3"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/player1Tile4"
+        app:layout_constraintStart_toEndOf="@+id/Tile6"
+        app:srcCompat="@drawable/empty_tile"
+        android:background="?android:selectableItemBackground"/>
+
+    <ImageButton
+        android:id="@+id/player1Tile2"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/player1Tile3"
+        app:layout_constraintStart_toEndOf="@+id/Tile7"
+        app:srcCompat="@drawable/empty_tile"
+        android:background="?android:selectableItemBackground"/>
+
+    <ImageButton
+        android:id="@+id/P1Start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?android:selectableItemBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/player1start_full" />
+</android.support.constraint.ConstraintLayout>
